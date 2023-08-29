@@ -1,0 +1,2 @@
+# Run keep-presence per second
+alias kp1='keep-presence -s 1'
