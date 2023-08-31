@@ -1,2 +1,5 @@
 # Run keep-presence per second
 alias kp1='keep-presence -s 1'
+
+# Restart docker
+alias restart-docker='systemctl restart docker.socket docker.service'

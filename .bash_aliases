@@ -19,6 +19,15 @@ alias sidekiq-r='bundle exec sidekiq'
 # Run Systemctl stop
 alias systop='sudo systemctl stop'
 
+# Run git init
+alias gnit='git init'
+
+# Run git remote add
+alias gradd='git remote add'
+
+# Run git remote add origin
+alias graddo='git remote add origin'
+
 # Run git commit
 alias gcom='git commit -m'
 
@@ -63,6 +72,9 @@ alias gpop='git stash pop'
 
 # Run git cherry-pick
 alias gpick='git cherry-pick'
+
+# Run git reset --soft
+alias grsoft='git reset --soft'
 
 # Alias for docker-compose
 alias dcomp='docker compose'
