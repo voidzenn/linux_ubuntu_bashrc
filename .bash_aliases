@@ -76,6 +76,15 @@ alias gpick='git cherry-pick'
 # Run git reset --soft
 alias grsoft='git reset --soft'
 
+# Run git merge --squash
+alias gmers='git merge --squash'
+
+# Run git merge
+alias gmer='git merge'
+
+# Run git rebase
+alias greb='git rebase'
+
 # Alias for docker-compose
 alias dcomp='docker compose'
 
