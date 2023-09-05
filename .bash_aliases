@@ -10,6 +10,15 @@ alias rails-cert='rails s -b "ssl://0.0.0.0:3000?key=/home/mike/Documents/CRTs/l
 # Run rails on port 3002
 alias rails-alt='rails s -p 3002'
 
+# Run rails db:create
+alias ror-c='rails db:create'
+
+# Run rails db:migrate
+alias ror-m='rails db:migrate'
+
+# Run rails db:rollback
+alias ror-rb='rails db:rollback'
+
 # Run yarn start on port 3003
 alias yarn-alt='PORT=3003 yarn start'
 
