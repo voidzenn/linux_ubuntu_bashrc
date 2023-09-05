@@ -19,11 +19,14 @@ alias ror-m='rails db:migrate'
 # Run rails db:rollback
 alias ror-rb='rails db:rollback'
 
+# Run bundle exec sidekiq
+alias bsidekiq='bundle exec sidekiq'
+
+# Run bundle exec rspec
+alias brspec='bundle exec rspec'
+
 # Run yarn start on port 3003
 alias yarn-alt='PORT=3003 yarn start'
-
-# Run sidekiq
-alias sidekiq-r='bundle exec sidekiq'
 
 # Run Systemctl stop
 alias systop='sudo systemctl stop'
