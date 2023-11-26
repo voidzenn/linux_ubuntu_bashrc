@@ -114,3 +114,9 @@ function dcomp-x(){
   local name=$1
   docker compose rm $name -s -f -v
 }
+
+# Alias for killing running port
+function kill-port(){
+  local port=$1
+  sudo kill -9 $(sudo lsof -t -i:$port)
+}
