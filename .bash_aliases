@@ -23,7 +23,7 @@ alias ror-rb='rails db:rollback'
 alias bsidekiq='bundle exec sidekiq'
 
 # Run bundle exec rspec
-alias brspec='bundle exec rspec'
+alias brspec='bundle exec rake db:test:prepare && bundle exec rspec'
 
 # Run yarn start on port 3003
 alias yarn-alt='PORT=3003 yarn start'
